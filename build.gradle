@@ -1,0 +1,20 @@
+group 'scalagoon'
+version '1.0.0'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+description = """Bowling Kata in Java"""
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.functionaljava:functionaljava:4.5'
+  testCompile 'junit:junit:4.12'
+}
